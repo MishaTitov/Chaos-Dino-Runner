@@ -1,0 +1,82 @@
+{
+    "name": "TouchControls",
+    "maps": [
+        {
+            "name": "Touch",
+            "id": "bd80a921-6efe-4e58-bfa8-5341256a6e53",
+            "actions": [
+                {
+                    "name": "TouchPressInput",
+                    "type": "Button",
+                    "id": "b2cab2a3-8446-41f1-9de8-609d073e5ae5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TouchPositionInput",
+                    "type": "Value",
+                    "id": "cfc50eb3-9d03-4eb6-ad19-e87071e8c304",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "036c25bb-def9-471c-829d-be6bfa689728",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPressInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "41958cb8-dffd-45c9-9dfd-a9bf7413feca",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPositionInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Keyboard",
+            "id": "d95a5fcf-b155-4773-af2c-13f0eddf9dd6",
+            "actions": [
+                {
+                    "name": "KeyboardInput",
+                    "type": "Button",
+                    "id": "e0463369-43c7-4e3b-b520-912a533d7fc5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "10cf28a7-f245-40ef-939e-9b8d76458174",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KeyboardInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
